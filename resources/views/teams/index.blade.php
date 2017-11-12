@@ -9,12 +9,6 @@
     </head>
     <body>
         <h2 style="text-align: center"> Laravel and React application </h2>
-        <div class="col-sm-4">
-            <a class="btn btn-primary" href="{{ url('member') }}">List member</a>
-        </div>
-        <div class="col-sm-4">
-            <a class="btn btn-primary" href="{{ url('team') }}">List team</a>
-        </div>
         <div id="root"></div>
         <script src="{{mix('js/app.js')}}" ></script>
     </body>
